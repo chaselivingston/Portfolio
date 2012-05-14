@@ -1,0 +1,65 @@
+html {
+	background: #f9f8f3;
+}
+
+@font-face {
+	font-family: "Museo";
+	src: url(fonts/MuseoSans_500.otf) format("opentype");
+
+}
+
+body {
+	font-family: Museo;
+	width: 980px;
+	margin: 0 auto;
+
+}
+
+
+
+.top > .left-col > h1 {
+	font-size: 40px;
+
+}
+
+
+.right-col {
+	position: relative;
+	left:350px;
+	top:-330px;
+	width: 557px;
+
+}
+
+ul {
+	list-style: none;
+	display: inline;
+
+}
+
+ul li {
+	float: left;
+	padding-right: 25px;
+
+}
+
+ul a:hover {
+	opacity: 0.5;
+
+}
+
+.bottom > h1 {
+	position: relative;
+	left: -170px;
+
+}
+
+.about {
+	width: 300px;
+
+}
+
+
+
+
+
