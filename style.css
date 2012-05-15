@@ -37,7 +37,7 @@ html {
 .portfolio {
 	position: absolute;
 	right:0;
-	width: 500px;
+	width: 700px;
 	
 	
 
@@ -77,14 +77,16 @@ ul a:hover {
 @media (min-width: 768px) and (max-width: 1024px) {
 	
 	.container{width: 100%;}
-	.portfolio{top:700px; right: auto;}
+	.info{width: 480px;}
+	.portfolio{width:480px; top:700px; right: auto;}
 }
 
 /* iPhone [portrait + landscape] */
 @media (max-width: 480px) {
 	
 	.container{width: 100%;}
-	.portfolio{top:700px; right: auto;}
+	.info{width: 480px;}
+	.portfolio{width:480px; top:700px; right: auto;}
 }
 
 
@@ -92,14 +94,20 @@ ul a:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	
 	.container{width: 100%;}
-	.portfolio{top:700px; right: auto;}
+	.info{width: 480px;}
+	.portfolio{width:480px; top:700px; right: auto;}
+	
+	
 }
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
 	
-	.container{width: 100%;}
-	.portfolio{top:700px; right: auto;}
+	..container{width: 100%;}
+	.info{width: 480px;}
+	.portfolio{width:480px; top:700px; right: auto;}
+	
+	
 }
 
 
