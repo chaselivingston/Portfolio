@@ -84,6 +84,8 @@ ul a:hover {
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
 	.portfolio{width: auto; top:500px; right: auto;}
 	.portfolio > h1 {font-size: 50px;}
+	.info > p {font-size:20px;}
+	.about {font-size: 20px;}
 }
 
 /* iPhone [portrait + landscape] */
@@ -92,6 +94,8 @@ ul a:hover {
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
 	.portfolio{width: auto; top:500px; right: auto;}
 	.portfolio > h1 {font-size: 50px;}
+	.info > p {font-size:20px;}
+	.about {font-size: 20px;}
 	
 }
 
@@ -102,6 +106,8 @@ ul a:hover {
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
 	.portfolio{width: auto; top:500px; right: auto;}
 	.portfolio > h1 {font-size: 50px;}
+	.info > p {font-size:20px;}
+	.about {font-size: 20px;}
 	
 	
 }
@@ -111,7 +117,9 @@ ul a:hover {
 	
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
 	.portfolio{width: auto; top:500px; right: auto;}
-	.portfolio > h1 {font-size: 50px;}	
+	.portfolio > h1 {font-size: 50px;}
+	.info > p {font-size:20px;}
+	.about {font-size: 20px;}
 	
 }
 
