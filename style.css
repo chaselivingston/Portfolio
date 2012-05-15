@@ -15,19 +15,35 @@ body {
 
 }
 
-
-
-.top > .left-col > h1 {
-	font-size: 40px;
+.left {
+	position: absolute;
+	width: 500px;
 
 }
 
 
-.right-col {
-	position: relative;
-	left:350px;
-	top:-330px;
-	width: 557px;
+
+.left > h1 {
+	font-size: 40px;
+
+}
+
+.left > p {
+	width: 320px;
+
+}
+
+
+.right {
+	position: absolute;
+	right:0;
+	
+	
+
+}
+
+.right > h1 {
+	font-size: 40px;
 
 }
 
@@ -48,11 +64,7 @@ ul a:hover {
 
 }
 
-.bottom > h1 {
-	position: relative;
-	left: -170px;
 
-}
 
 .about {
 	width: 300px;
