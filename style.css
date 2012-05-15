@@ -76,7 +76,7 @@ ul a:hover {
 		/* iPad [portrait + landscape] */
 @media (min-width: 768px) and (max-width: 1024px) {
 	
-	.container{width: 100%;}
+	.container{width: 480px;}
 	.info{width: 480px;}
 	.portfolio{width:480px; top:700px; right: auto;}
 }
@@ -84,16 +84,15 @@ ul a:hover {
 /* iPhone [portrait + landscape] */
 @media (max-width: 480px) {
 	
-	.container{width: 100%;}
+	.container{width: 480px;}
 	.info{width: 480px;}
-	.portfolio{width:480px; top:700px; right: auto;}
-}
+	.portfolio{width:480px; top:700px; right: auto;}}
 
 
 		/* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	
-	.container{width: 100%;}
+	.container{width: 480px;}
 	.info{width: 480px;}
 	.portfolio{width:480px; top:700px; right: auto;}
 	
@@ -103,7 +102,7 @@ ul a:hover {
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
 	
-	..container{width: 100%;}
+	.container{width: 480px;}
 	.info{width: 480px;}
 	.portfolio{width:480px; top:700px; right: auto;}
 	
