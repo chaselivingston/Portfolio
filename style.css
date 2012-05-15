@@ -23,6 +23,7 @@ body {
 .info {
 	position: absolute;
 	width: 500px;
+	top:35px;
 
 }
 
@@ -40,6 +41,7 @@ body {
 	position: absolute;
 	right:0;
 	width: 700px;
+	
 	
 	
 
@@ -80,7 +82,7 @@ ul a:hover {
 	body{width: 480px;}
 	.container{width: 480px; zoom: 1.5;}
 	.info{width: 480px;}
-	.portfolio{width:480px; top:700px; right: auto;}
+	.portfolio{width:480px; top:600px; right: auto;}
 }
 
 /* iPhone [portrait + landscape] */
@@ -88,7 +90,7 @@ ul a:hover {
 	body{width: 480px;}
 	.container{width: 480px; zoom: 1.5;}
 	.info{width: 480px;}
-	.portfolio{width:480px; top:700px; right: auto;}}
+	.portfolio{width:480px; top:600px; right: auto;}}
 
 
 		/* iPad [portrait + landscape] */
@@ -96,7 +98,7 @@ ul a:hover {
 	body{width: 480px;}
 	.container{width: 480px; zoom: 1.5;}
 	.info{width: 480px;}
-	.portfolio{width:480px; top:700px; right: auto;}
+	.portfolio{width:480px; top:600px; right: auto;}
 	
 	
 }
@@ -106,7 +108,7 @@ ul a:hover {
 	body{width: 480px;}
 	.container{width: 480px; zoom: 1.5;}
 	.info{width: 480px;}
-	.portfolio{width:480px; top:700px; right: auto;}
+	.portfolio{width:480px; top:600px; right: auto;}
 	
 	
 }
