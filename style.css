@@ -80,7 +80,7 @@ ul a:hover {
 @media (min-width: 768px) and (max-width: 1024px) {
 	
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
-	.portfolio{width: auto; top:600px; right: auto;}
+	.portfolio{width: auto; top:600px; right: auto; left:0;}
 	.portfolio > h1 {font-size: 50px;}
 	.info > p {font-size:33px;}
 	.about {font-size: 33px;}
@@ -90,7 +90,7 @@ ul a:hover {
 @media (max-width: 480px) {
 	
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
-	.portfolio{width: auto; top:600px; right: auto;}
+	.portfolio{width: auto; top:600px; right: auto; left:0;}
 	.portfolio > h1 {font-size: 50px;}
 	.info > p {font-size:33px;}
 	.about {font-size: 33px;}
@@ -102,7 +102,7 @@ ul a:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
-	.portfolio{width: auto; top:600px; right: auto;}
+	.portfolio{width: auto; top:600px; right: auto; left:0;}
 	.portfolio > h1 {font-size: 50px;}
 	.info > p {font-size:33px;}
 	.about {font-size: 33px;}	
@@ -113,7 +113,7 @@ ul a:hover {
 @media only screen and (max-device-width: 480px) {
 	
 	.container{width: 100%; zoom: 2.5; padding-left: 30px;}
-	.portfolio{width: auto; top:600px; right: auto;}
+	.portfolio{width: auto; top:600px; right: auto; left:0;}
 	.portfolio > h1 {font-size: 50px;}
 	.info > p {font-size:33px;}
 	.about {font-size: 33px;}
