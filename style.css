@@ -73,15 +73,15 @@ ul a:hover {
 
 
 		/* iPad [portrait + landscape] */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	.container{width: 480px; padding:20px;}
-	.portfolio{top:700px; left:0;}
+	.portfolio{top:700px; }
 }
 
 /* iPhone [portrait + landscape] */
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 480px) {
 	.container{width: 480px; padding:20px;}
-	.portfolio{top:700px; left:0;}
+	.portfolio{top:700px; }
 }
 
 
