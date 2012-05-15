@@ -7,13 +7,12 @@
 
 body {
 	
+	margin: 0 auto;
 	background: #f9f8f3;
 }
 
 .container {
 	font-family: Museo;
-	width: 980px;
-	margin: 0 auto;
 	
 
 }
@@ -23,8 +22,7 @@ body {
 	width: auto;
 	top:35px;
 	
-	float: left;
-
+	left:200px;
 }
 
 
@@ -39,9 +37,9 @@ body {
 
 .portfolio {
 	position: absolute;
-	right:30px;
+	left:650px;
 	width: auto;
-	float: left;
+	float: right;
 	
 	
 	
