@@ -1,5 +1,4 @@
 
-
 @font-face {
 	font-family: "Museo";
 	src: url(fonts/MuseoSans_500.otf) format("opentype");
@@ -7,6 +6,7 @@
 }
 
 body {
+	width: 100%;
 	margin: 0 auto;
 	background: #f9f8f3;
 }
@@ -79,7 +79,7 @@ ul a:hover {
 		/* iPad [portrait + landscape] */
 @media (min-width: 768px) and (max-width: 1024px) {
 	
-	.container{width: 350px;}
+	.container{width: 50%;}
 	.info{width: 480px;}
 	.portfolio{width:480px; top:600px; right: auto;}
 }
@@ -87,7 +87,7 @@ ul a:hover {
 /* iPhone [portrait + landscape] */
 @media (max-width: 480px) {
 	
-	.container{width: 350px;}
+	.container{width: 50%;}
 	.info{width: 480px;}
 	.portfolio{width:480px; top:600px; right: auto;}
 	
@@ -97,7 +97,7 @@ ul a:hover {
 		/* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	
-	.container{width: 350px;}
+	.container{width: 50%;}
 	.info{width: 480px;}
 	.portfolio{width:480px; top:600px; right: auto;}
 	
@@ -107,7 +107,7 @@ ul a:hover {
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
 	
-	.container{width: 350px;}
+	.container{width: 50%;}
 	.info{width: 480px;}
 	.portfolio{width:480px; top:600px; right: auto;}	
 	
