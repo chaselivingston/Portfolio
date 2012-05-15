@@ -8,6 +8,11 @@ html {
 
 }
 
+body {
+	margin: 0 auto;
+
+}
+
 .container {
 	font-family: Museo;
 	width: 980px;
