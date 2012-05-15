@@ -39,7 +39,7 @@ body {
 
 .portfolio {
 	position: absolute;
-	right:0;
+	right:30px;
 	width: 700px;
 	float: left;
 	
@@ -80,15 +80,15 @@ ul a:hover {
 
 		/* iPad [portrait + landscape] */
 @media (min-width: 768px) and (max-width: 1024px) {
-	body{width: 50%;}
-	.container{width: 50%;}
+	body{width: 20%;}
+	.container{width: 20%;}
 	.portfolio{top:600px; right: auto;}
 }
 
 /* iPhone [portrait + landscape] */
 @media (max-width: 480px) {
-	body{width: 50%;}
-	.container{width: 50%;}
+	body{width: 20%;}
+	.container{width: 20%;}
 	.portfolio{top:600px; right: auto;}
 	
 }
@@ -96,8 +96,8 @@ ul a:hover {
 
 		/* iPad [portrait + landscape] */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	body{width: 50%;}
-	.container{width: 50%;}
+	body{width: 20%;}
+	.container{width: 20%;}
 	.portfolio{top:600px; right: auto;}
 	
 	
@@ -105,8 +105,8 @@ ul a:hover {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
-	body{width: 50%;}
-	.container{width: 50%;}
+	body{width: 20%;}
+	.container{width: 20%;}
 	.portfolio{top:600px; right: auto;}	
 	
 }
