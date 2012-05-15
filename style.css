@@ -15,7 +15,7 @@ body {
 
 }
 
-.left {
+.info {
 	position: absolute;
 	width: 500px;
 
@@ -23,18 +23,18 @@ body {
 
 
 
-.left > h1 {
+.info > h1 {
 	font-size: 40px;
 
 }
 
-.left > p {
+.info > p {
 	width: 320px;
 
 }
 
 
-.right {
+.portfolio {
 	position: absolute;
 	right:0;
 	
@@ -42,7 +42,7 @@ body {
 
 }
 
-.right > h1 {
+.portfolio > h1 {
 	font-size: 40px;
 
 }
@@ -70,6 +70,20 @@ ul a:hover {
 	width: 300px;
 
 }
+
+
+		/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	body{width: 100%; background: blue;}
+	.portfolio{position: relative;}
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+	body{width: 100%; background: blue;}
+	.portfolio{position: relative;}
+}
+
 
 
 
